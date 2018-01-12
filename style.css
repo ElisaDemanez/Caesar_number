@@ -1,0 +1,38 @@
+body {
+        background: rgb(190, 189, 189);
+        margin: 5%
+}
+
+.row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+}
+
+.column {
+        
+        display: flex; 
+        flex-direction: column;
+        width:98%;
+        align-items: center;
+}
+
+textarea {
+        
+        width: 100%; 
+        height: 10em;
+        font-size: 20px;
+        border-radius: 5px;
+}
+
+div#sortie {
+        
+        background-color: white;
+        border-radius: 5px;
+        width: 100%; 
+        min-height: 10em;
+        font-size: 20px;
+        border-radius: 5px;
+        
+}
